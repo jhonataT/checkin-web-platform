@@ -1,0 +1,18 @@
+p {  
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stopWatch__panel {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.stopWatch__buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}

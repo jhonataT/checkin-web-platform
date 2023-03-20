@@ -1,0 +1,29 @@
+.button__container {
+    height: 50px;
+    width: 180px;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 4px 6px 34px 0px rgba(255, 255, 255, .12);
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+.disabled {
+    opacity: .3;
+    cursor: default;
+    pointer-events: none;
+}
+
+.primary {
+    background-color: var(--success-green);
+}
+
+.secondary {
+    background-color: var(--danger-red);
+}
