@@ -1,6 +1,6 @@
 .button__container {
-    height: 50px;
-    width: 180px;
+    height: 42px;
+    width: 240px;
 
     border-radius: 20px;
 
@@ -12,6 +12,14 @@
     cursor: pointer;
 
     font-weight: 700;
+
+    margin: 0 10px 0 10px;
+
+    transition: all .4s;
+}
+
+.button__container:hover {
+    opacity: .9;
 }
 
 .disabled {
