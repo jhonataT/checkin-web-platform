@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--primary-background);
 
@@ -22,4 +22,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    overflow-x: hidden;
 }

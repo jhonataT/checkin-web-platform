@@ -1,0 +1,7 @@
+.board__container {
+    min-height: 90vh;
+
+    margin-top: 100px;
+
+    padding: 30px;
+}
