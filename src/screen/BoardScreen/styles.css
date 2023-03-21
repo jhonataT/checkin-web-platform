@@ -1,7 +1,9 @@
 .board__container {
-    min-height: 90vh;
+    width: 100%;
+    min-height: 100vh;
 
-    margin-top: 100px;
+    padding: 0 30px;
 
-    padding: 30px;
+    position: absolute;
+    z-index: 2000;
 }

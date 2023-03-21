@@ -4,8 +4,8 @@ import './global.css';
 
 const App = () => {
   return <main>
-    <HomeContainer />
     <BoardContainer />
+    <HomeContainer />
   </main>
 }
 
